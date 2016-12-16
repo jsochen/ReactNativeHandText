@@ -25,21 +25,21 @@ class Views extends Component{
 let data =[
   {name:"chen"},
   {name:"wo"},
-  {name:"chen"},
-  {name:"wo"},
-  {name:"chen"},
-  {name:"wo"},
-  {name:"chen"},
-  {name:"wo"},
-  {name:"chen"},
-  {name:"wo"}
+  {name:"aaaa"},
+  {name:"bbbb"},
+  {name:"cccc"},
+  {name:"dddd"},
+  {name:"eeee"},
+  {name:"ffff"},
+  {name:"rrrr"},
+  {name:"kkkk"}
 ]
 
 export default class TextProject extends Component {
   render() {
     return (
       <View>
-        <ReactNativeSortablelistView data={data}></ReactNativeSortablelistView>
+        <ReactNativeSortablelistView itemHeight={50} data={data}></ReactNativeSortablelistView>
       </View>
     );
   }
