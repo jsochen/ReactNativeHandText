@@ -12,8 +12,9 @@ import {
   View
 } from 'react-native';
 
-import ReactNativeSortablelistView from './app/react-native-sortable-listview';
+import ReactNativeSortablelistView from './app/ReactNativeSortablelistView';
 
+import ReactNativeSortablelistView2 from './app/ReactNativeSortablelistView2';
 
 class Views extends Component{
   render(){
@@ -39,7 +40,7 @@ export default class TextProject extends Component {
   render() {
     return (
       <View>
-        <ReactNativeSortablelistView itemHeight={50} data={data}></ReactNativeSortablelistView>
+        <ReactNativeSortablelistView2 ScrollViewHeight={400} itemHeight={50} data={data}></ReactNativeSortablelistView2>
       </View>
     );
   }
